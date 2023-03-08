@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Api", "Source\LandingPage.Lora.Api\LandingPage.Lora.Api.csproj", "{6E608E0A-41F9-472E-8AA4-379198B1EF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Api.Site", "Source\LandingPage.Lora.Api.Site\LandingPage.Lora.Api.Site.csproj", "{68528B0B-5668-4C6F-A515-EF9E17AAE596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Core", "Source\LandingPage.Lora.Core\LandingPage.Lora.Core.csproj", "{42F1C2A5-84AF-4050-B0F1-E1AE1543A764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Domain", "Source\LandingPage.Lora.Domain\LandingPage.Lora.Domain.csproj", "{A3CAA399-5B5E-4FDF-84C6-DFD12F839450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Infrastructure", "Source\LandingPage.Lora.Infrastructure\LandingPage.Lora.Infrastructure.csproj", "{CD19B494-CFA7-477C-8598-00FA1E01FE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Infrastructure.IoC", "Source\LandingPage.Lora.Infrastructure.IoC\LandingPage.Lora.Infrastructure.IoC.csproj", "{BCB29E19-4FEE-4DE6-A205-6B1409EB4EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Infrastructure.Migrations", "Source\LandingPage.Lora.Infrastructure.Migrations\LandingPage.Lora.Infrastructure.Migrations.csproj", "{49FB3646-F111-421F-8981-5D5E2E657922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{49536458-9301-4E29-A8F9-4D9DD0EFFC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Tests.Infrastructure", "Source\Tests\LandingPage.Lora.Tests.Infrastructure\LandingPage.Lora.Tests.Infrastructure.csproj", "{8034877B-B5A2-4E72-9712-0DE0C44628C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPage.Lora.Tests.Api.Site", "Source\Tests\LandingPage.Lora.Tests.Api.Site\LandingPage.Lora.Tests.Api.Site.csproj", "{190E96F2-53BC-4C00-BC9D-A5795FCCA983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E608E0A-41F9-472E-8AA4-379198B1EF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E608E0A-41F9-472E-8AA4-379198B1EF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E608E0A-41F9-472E-8AA4-379198B1EF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E608E0A-41F9-472E-8AA4-379198B1EF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68528B0B-5668-4C6F-A515-EF9E17AAE596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68528B0B-5668-4C6F-A515-EF9E17AAE596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68528B0B-5668-4C6F-A515-EF9E17AAE596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68528B0B-5668-4C6F-A515-EF9E17AAE596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F1C2A5-84AF-4050-B0F1-E1AE1543A764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F1C2A5-84AF-4050-B0F1-E1AE1543A764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F1C2A5-84AF-4050-B0F1-E1AE1543A764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F1C2A5-84AF-4050-B0F1-E1AE1543A764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CAA399-5B5E-4FDF-84C6-DFD12F839450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CAA399-5B5E-4FDF-84C6-DFD12F839450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CAA399-5B5E-4FDF-84C6-DFD12F839450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CAA399-5B5E-4FDF-84C6-DFD12F839450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD19B494-CFA7-477C-8598-00FA1E01FE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD19B494-CFA7-477C-8598-00FA1E01FE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD19B494-CFA7-477C-8598-00FA1E01FE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD19B494-CFA7-477C-8598-00FA1E01FE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB29E19-4FEE-4DE6-A205-6B1409EB4EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB29E19-4FEE-4DE6-A205-6B1409EB4EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB29E19-4FEE-4DE6-A205-6B1409EB4EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB29E19-4FEE-4DE6-A205-6B1409EB4EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FB3646-F111-421F-8981-5D5E2E657922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FB3646-F111-421F-8981-5D5E2E657922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FB3646-F111-421F-8981-5D5E2E657922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FB3646-F111-421F-8981-5D5E2E657922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8034877B-B5A2-4E72-9712-0DE0C44628C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8034877B-B5A2-4E72-9712-0DE0C44628C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8034877B-B5A2-4E72-9712-0DE0C44628C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8034877B-B5A2-4E72-9712-0DE0C44628C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190E96F2-53BC-4C00-BC9D-A5795FCCA983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190E96F2-53BC-4C00-BC9D-A5795FCCA983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190E96F2-53BC-4C00-BC9D-A5795FCCA983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190E96F2-53BC-4C00-BC9D-A5795FCCA983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E608E0A-41F9-472E-8AA4-379198B1EF91} = {767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}
+		{68528B0B-5668-4C6F-A515-EF9E17AAE596} = {767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}
+		{42F1C2A5-84AF-4050-B0F1-E1AE1543A764} = {767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}
+		{A3CAA399-5B5E-4FDF-84C6-DFD12F839450} = {767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}
+		{CD19B494-CFA7-477C-8598-00FA1E01FE0A} = {767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}
+		{BCB29E19-4FEE-4DE6-A205-6B1409EB4EE6} = {767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}
+		{49FB3646-F111-421F-8981-5D5E2E657922} = {767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}
+		{49536458-9301-4E29-A8F9-4D9DD0EFFC19} = {767A5FDB-AD0B-4EC2-B447-7BBDEC6BC312}
+		{8034877B-B5A2-4E72-9712-0DE0C44628C6} = {49536458-9301-4E29-A8F9-4D9DD0EFFC19}
+		{190E96F2-53BC-4C00-BC9D-A5795FCCA983} = {49536458-9301-4E29-A8F9-4D9DD0EFFC19}
+	EndGlobalSection
+EndGlobal

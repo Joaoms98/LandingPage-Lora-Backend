@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LandingPage.Lora.Infrastructure.Migrations\LandingPage.Lora.Infrastructure.Migrations.csproj" />
+    <ProjectReference Include="..\LandingPage.Lora.Core\LandingPage.Lora.Core.csproj" />
+    <ProjectReference Include="..\LandingPage.Lora.Domain\LandingPage.Lora.Domain.csproj" />
+    <ProjectReference Include="..\LandingPage.Lora.Api\LandingPage.Lora.Api.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
