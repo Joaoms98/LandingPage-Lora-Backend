@@ -4,10 +4,9 @@ public interface IUnitOfWork
 {
 
 
-    // ILogRepository LogRepository { get; }
+    IPersonRepository PersonRepository { get; }
 
-
-
+    IMessageRepository MessageRepository { get; }
 
     /// <summary>
     /// Persists the changes to database

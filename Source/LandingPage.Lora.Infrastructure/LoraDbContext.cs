@@ -1,3 +1,4 @@
+using LandingPage.Lora.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace LandingPage.Lora.Infrastructure
@@ -8,6 +9,6 @@ namespace LandingPage.Lora.Infrastructure
         {
         }
 
-        // public DbSet<Log> Logs { get; set; }
+        public DbSet<Person> Person { get; set; }
     }
 }
