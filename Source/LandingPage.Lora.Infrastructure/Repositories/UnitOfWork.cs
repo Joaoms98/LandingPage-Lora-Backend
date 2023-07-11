@@ -9,18 +9,24 @@ public class UnitOfWork : IUnitOfWork, IDisposable
     private bool disposed = false;
     private readonly QueryTrackingBehavior _defaultQueryTrackBehavior;
 
-    // public UnitOfWork(LoraDbContext dbContext)
-    // {
-    //     _dbContext = dbContext;
-    //     _defaultQueryTrackBehavior = dbContext.ChangeTracker.QueryTrackingBehavior;
-    // }
+    public UnitOfWork(LoraDbContext dbContext)
+    {
+        _dbContext = dbContext;
+        _defaultQueryTrackBehavior = dbContext.ChangeTracker.QueryTrackingBehavior;
+    }
 
-    // private ILogRepository _logRepository;
+    private IPersonRepository _personRepository;
+    private IMessageRepository _messageRepository;
 
-    // public ILogRepository LogRepository
-    // {
-    //     get { return _logRepository = _logRepository ?? new LogRepository(_dbContext); }
-    // }
+    public IPersonRepository PersonRepository
+    {
+        get { return _personRepository = _personRepository ?? new PersonRepository(_dbContext); }
+    }
+
+    public IMessageRepository MessageRepository
+    {
+        get { return _messageRepository = _messageRepository ?? new MessageRepository(_dbContext); }
+    }
 
     public IUnitOfWork SetReadOnlyMode()
     {
